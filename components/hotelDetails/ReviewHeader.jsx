@@ -1,10 +1,12 @@
+import { IoStar } from "react-icons/io5";
+
 const ReviewHeader = () => {
   return (
     <div class="flex items-center justify-between mb-8">
       <div class="flex items-center gap-4">
         <h2 class="text-2xl font-semibold">Reviews</h2>
         <div class="flex items-center">
-          <i class="fas fa-star text-yellow-500 mr-2"></i>
+          <IoStar className="text-yellow-500" />
           <span class="text-xl font-semibold">4.9</span>
           <span class="mx-2">·</span>
           <span class="text-gray-600">2 reviews</span>
