@@ -1,3 +1,5 @@
+import { IoStar } from "react-icons/io5";
+
 const BookingCard = () => {
   return (
     <div>
@@ -8,7 +10,7 @@ const BookingCard = () => {
             <span class="text-gray-600 ml-1">per night</span>
           </div>
           <div class="flex items-center">
-            <i class="fas fa-star text-yellow-500 mr-1"></i>
+            <IoStar class="text-yellow-500 mx-1" />
             <span>5</span>
           </div>
         </div>

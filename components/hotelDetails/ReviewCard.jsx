@@ -17,11 +17,11 @@ const ReviewCard = () => {
         </div>
       </div>
       <div class="flex items-center">
-        <IoStar className="text-yellow-500" />
-        <IoStar className="text-yellow-500" />
-        <IoStar className="text-yellow-500" />
-        <IoStar className="text-yellow-500" />
-        <IoStar className="text-yellow-500" />
+        <IoStar class="text-yellow-500 " />
+        <IoStar class="text-yellow-500" />
+        <IoStar class="text-yellow-500" />
+        <IoStar class="text-yellow-500" />
+        <IoStar class="text-yellow-500" />
       </div>
       <p class="text-gray-600 leading-relaxed">
         Amazing stay! The villa exceeded our expectations. The private pool and
