@@ -1,21 +1,21 @@
 const Pagination = () => {
   return (
-    <div class="mt-8 flex justify-center">
+    <div className="mt-8 flex justify-center">
       <nav aria-label="Page navigation">
-        <ul class="inline-flex items-center -space-x-px">
+        <ul className="inline-flex items-center -space-x-px">
           <li>
             <a
               href="#"
-              class="block py-2 px-3 ml-0 leading-tight text-zinc-500 bg-white rounded-l-lg border border-zinc-300 hover:bg-zinc-100 hover:text-zinc-700"
+              className="block py-2 px-3 ml-0 leading-tight text-zinc-500 bg-white rounded-l-lg border border-zinc-300 hover:bg-zinc-100 hover:text-zinc-700"
             >
-              <span class="sr-only">Previous</span>
-              <i class="fas fa-chevron-left"></i>
+              <span className="sr-only">Previous</span>
+              <i className="fas fa-chevron-left"></i>
             </a>
           </li>
           <li>
             <a
               href="#"
-              class="py-2 px-3 leading-tight text-zinc-500 bg-white border border-zinc-300 hover:bg-zinc-100 hover:text-zinc-700"
+              className="py-2 px-3 leading-tight text-zinc-500 bg-white border border-zinc-300 hover:bg-zinc-100 hover:text-zinc-700"
             >
               1
             </a>
@@ -23,7 +23,7 @@ const Pagination = () => {
           <li>
             <a
               href="#"
-              class="py-2 px-3 leading-tight text-zinc-500 bg-white border border-zinc-300 hover:bg-zinc-100 hover:text-zinc-700"
+              className="py-2 px-3 leading-tight text-zinc-500 bg-white border border-zinc-300 hover:bg-zinc-100 hover:text-zinc-700"
             >
               2
             </a>
@@ -31,7 +31,7 @@ const Pagination = () => {
           <li>
             <a
               href="#"
-              class="py-2 px-3 leading-tight text-zinc-500 bg-white border border-zinc-300 hover:bg-zinc-100 hover:text-zinc-700"
+              className="py-2 px-3 leading-tight text-zinc-500 bg-white border border-zinc-300 hover:bg-zinc-100 hover:text-zinc-700"
             >
               3
             </a>
@@ -39,10 +39,10 @@ const Pagination = () => {
           <li>
             <a
               href="#"
-              class="block py-2 px-3 leading-tight text-zinc-500 bg-white rounded-r-lg border border-zinc-300 hover:bg-zinc-100 hover:text-zinc-700"
+              className="block py-2 px-3 leading-tight text-zinc-500 bg-white rounded-r-lg border border-zinc-300 hover:bg-zinc-100 hover:text-zinc-700"
             >
-              <span class="sr-only">Next</span>
-              <i class="fas fa-chevron-right"></i>
+              <span className="sr-only">Next</span>
+              <i className="fas fa-chevron-right"></i>
             </a>
           </li>
         </ul>

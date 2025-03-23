@@ -8,19 +8,19 @@ import ReviewHeader from "@/components/hotelDetails/ReviewHeader";
 
 const HotelDetailsPage = () => {
   return (
-    <div class="bg-gray-50">
-      <div class="max-w-7xl mx-auto px-6 py-8">
+    <div className="bg-gray-50">
+      <div className="max-w-7xl mx-auto px-6 py-8">
         <HotelTitle />
         <HotelGallery />
 
         {/* Property Details  */}
-        <div class="grid grid-cols-3 gap-8">
-          <div class="col-span-2">
+        <div className="grid grid-cols-3 gap-8">
+          <div className="col-span-2">
             <PropertySummary />
 
-            <div class="mb-6">
-              <h3 class="text-xl font-semibold mb-4">About this place</h3>
-              <p class="text-gray-700 leading-relaxed">
+            <div className="mb-6">
+              <h3 className="text-xl font-semibold mb-4">About this place</h3>
+              <p className="text-gray-700 leading-relaxed">
                 Experience luxury in this stunning beachfront villa nestled in
                 the heart of the Maldives. Our spacious 3-bedroom villa offers
                 breathtaking ocean views, private pool, and direct beach access.
@@ -36,10 +36,10 @@ const HotelDetailsPage = () => {
         </div>
       </div>
 
-      <div class="max-w-7xl mx-auto px-6 py-12 border-t">
+      <div className="max-w-7xl mx-auto px-6 py-12 border-t">
         <ReviewHeader />
 
-        <div class="grid grid-cols-2 gap-8">
+        <div className="grid grid-cols-2 gap-8">
           <ReviewCard />
           <ReviewCard />
         </div>
